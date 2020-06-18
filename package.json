@@ -1,0 +1,21 @@
+{
+    "name": "electron-profiler",
+    "version": "1.0.0",
+    "description": "for testing electron performance",
+    "main": "main.js",
+    "scripts": {
+        "serve": "http-server -c-1",
+        "start": "electron .",
+        "test": "npm run test",
+        "pack": "electron-packager . myClient --win --out ../myClient --arch=x64 --app-version=0.0.1 --electron-version=2.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "not yet created"
+    },
+    "keywords": [
+        "_"
+    ],
+    "author": "Alexander Ezharjan",
+    "license": "ISC"
+}
