@@ -2,12 +2,13 @@
     "name": "electron-profiler",
     "version": "1.0.0",
     "description": "for testing electron performance",
-    "main": "main.js",
+    "main": "index.js",
     "scripts": {
-        "serve": "http-server -c-1",
         "start": "electron .",
-        "test": "npm run test",
-        "pack": "electron-packager . myClient --win --out ../myClient --arch=x64 --app-version=0.0.1 --electron-version=2.0.0"
+        "dev": "webpack",
+        "serve": "http-server -c-1",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "pack": "electron-packager . myApp --win --out ../myApp --arch=x64 --app-version=0.0.1 --electron-version=2.0.0"
     },
     "repository": {
         "type": "git",
@@ -17,5 +18,9 @@
         "_"
     ],
     "author": "Alexander Ezharjan",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
+    }
 }

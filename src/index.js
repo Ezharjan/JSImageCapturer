@@ -62,14 +62,14 @@ function init() {
     }
 
     var textureLoader = new THREE.TextureLoader(manager);
-    var texture = textureLoader.load('resources/01.jpg');
+    var texture = textureLoader.load('../resources/01.jpg');
 
 
     function onError() {}
 
 
     var loader = new OBJLoader(manager);
-    loader.load('resources/tree.obj', function(obj) {
+    loader.load('../resources/tree.obj', function(obj) {
 
         object = obj;
 
@@ -138,3 +138,5 @@ function render() {
     renderer.render(scene, camera);
 
 }
+
+console.log("hello");
