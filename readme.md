@@ -4,7 +4,10 @@
 4. run the electron in development mode ---> npm run start
 5. build the executable package ourside the project folder ---> npm run pack
 
+By Alexander,2020/6/18
 
+<br><br><br>
+---
 
 
 1. 将本文件夹放在服务器上并通过指定的服务器地址访问index.html文件就能看到载入到场景中的模型。
